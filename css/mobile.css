@@ -1,5 +1,32 @@
+/* IPHONE 6 */
+
 @media screen and (min-width: 375px) and (max-width: 667px) {
-  
+
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+
+.port {
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 51px !important;
+    width: 100%;
+    height: 630px;
+    top: 0;
+    left: 0;
+     padding-top: 20px; 
+    background: #ffffff;
+    background-color: #fafafa;
+    z-index: 103;
+    visibility: hidden;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}  
 
 .last {
   width: 206px;
@@ -97,7 +124,7 @@
     color: #BDC3C7;
 }
 .mock {
-    width: 100% !important;
+    width: 135% !important;
     float: right !important;
     margin-top: -675px !important;
     margin-right: 0px !important;
@@ -109,6 +136,9 @@
     padding: 0;
     letter-spacing: 2px;
     text-align: center;
+    margin-top: 225px !important;
+    font-weight: 300;
+    color: white;
 }
 
 #item01 > div > div {
@@ -130,8 +160,8 @@ button.close {
     background: transparent;
     border: 0;
     /* margin-left: auto; */
-    margin-top: 57px;
-    margin-right: 7px;
+    margin-top: 15px;
+    margin-right: 15px;
     font-size: 2.5em;
 }
 
@@ -147,11 +177,12 @@ button.close {
 }
 
 #item02 > div > div {
-    margin-left: 60px;
+    margin-left: 48px;
 }
 
 #item02 > div > div > p {
     text-align: center;
+    color: white;
 }
 
 #item02 > div > div > h1 {
@@ -163,7 +194,7 @@ button.close {
 
 #item02 > div > img {
     margin-top: -805px !important;
-    margin-right: 0px !important; 
+    margin-right: -50px !important;
 }
 
 #item02 > div {
@@ -946,6 +977,8 @@ hr {
     background-color: #fff;
 }
 
+
+/* GALAXY S5 */
 
 @media screen and (min-width: 360px) and (max-width: 640px) {
   .net {
